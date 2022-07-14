@@ -5,17 +5,16 @@ import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Toparea from '../../components/auction/Toparea'
-import Buyarea from '../../components/auction/Buyarea'
+import { Auctioncontainerclosed } from '../../components/auction/Auctioncontainerclosed'
 import Listarea from '../../components/auction/Listarea'
 
-export function Auctioncontainer() {
-    const [auctionstatus, setAuctionstatus] = useState(true);
-
+export default function Closed() {
+    const [auctionstatus, setAuctionstatus] = useState(false);
     return (
         <div>
-            <Toparea auctionstatus={auctionstatus} />
-            <Listarea auctionstatus={auctionstatus} />
+            <Navbar />
+            <Auctioncontainerclosed auctionstatus={auctionstatus} />
+
         </div>
     )
 }
-

@@ -1,4 +1,4 @@
-.toparea {
+.rtoparea {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,11 +44,9 @@
       margin-top: 3rem;
       .bigtitle {
         width: 57rem;
-
         overflow: hidden;
         display: flex;
         justify-content: center;
-
         flex-direction: row;
         align-items: center;
         background-image: url("../../../assets/chocpaper.svg");

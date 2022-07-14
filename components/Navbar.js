@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Navbar() {
     return (
         <div className='navbar' >
-            <Link href={"/"}>
+            <Link href={"/home"}>
                 <p className="myth pp5 pointer">MYTH</p>
             </Link>
             <Image className="redlogo" height="55rem"

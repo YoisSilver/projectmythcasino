@@ -1,5 +1,6 @@
 import React from 'react'
 import SvgTower from '../../assets/Tower'
+import { GiCloverSpiked } from 'react-icons/gi'
 
 export default function Listarea({ auctionstatus }) {
     return (
@@ -29,18 +30,20 @@ export default function Listarea({ auctionstatus }) {
             <div className="listareas">
                 <div className="winner ">
                     <div className="wrapper cardshad2">
-                        <div className="congrats mgbi"><p>{auctionstatus ? 'Place your bids here' : 'Congratulations to the winner'} </p></div>
+                        <div className="congrats mgbi">{auctionstatus ? <p>  Place your bids here  </p> : <p>Congratulations to the winner </p>} </div>
                         <div className="address pp5">
-                            <p>
-                                {auctionstatus ? <div className='bidarea'>
-                                    <input className='amount pp5' type="number" placeholder='min bid: 51'></input>
-                                    <input type="submit" className='bidbtn pp5' value="Bid" />
-                                </div>
-                                    : 'gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY'}
-                            </p> </div>
+
+                            {auctionstatus ? <div className='bidarea'>
+                                <GiCloverSpiked />
+                                <input className='amount pp5' type="number" placeholder='min bid: 51'></input>
+                                <input type="submit" className='bidbtn pp5' value="Bid" /><GiCloverSpiked />
+                            </div>
+                                : 'gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY'}
+
+                        </div>
 
                         <div className="wonfor mgbi">
-                            <p>{auctionstatus ? 'highest bid 50 SOL' : 'won for 50 SOL'}</p></div>
+                            {auctionstatus ? <p>highest bid 50 SOL</p> : <p>won for 50 SOL</p>}</div>
                     </div>
 
 
@@ -48,6 +51,9 @@ export default function Listarea({ auctionstatus }) {
                 <div className="alladdress">
                     <div className="wallet bar">
                         <p className="header mgb">Wallet</p>
+                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
                         <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
                         <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
                         <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
@@ -72,10 +78,17 @@ export default function Listarea({ auctionstatus }) {
                         <p className="entry pp5">2 months ago</p>
                         <p className="entry pp5">2 months ago</p>
                         <p className="entry pp5">2 months ago</p>
+                        <p className="entry pp5">2 months ago</p>
+                        <p className="entry pp5">2 months ago</p>
+                        <p className="entry pp5">2 months ago</p>
+
 
                     </div>
                     <div className="bid bar">
                         <p className="header mgb">Bid</p>
+                        <p className="entry pp5">50 SOL</p>
+                        <p className="entry pp5">50 SOL</p>
+                        <p className="entry pp5">50 SOL</p>
                         <p className="entry pp5">50 SOL</p>
                         <p className="entry pp5">50 SOL</p>
                         <p className="entry pp5">50 SOL</p>

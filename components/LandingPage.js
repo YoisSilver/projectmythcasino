@@ -6,6 +6,7 @@ import { BsMedium } from 'react-icons/bs'
 import { IconContext } from 'react-icons'
 import brandlogo from '../assets/logo1.png'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export default function LandingPage() {
     return (
@@ -35,15 +36,23 @@ export default function LandingPage() {
                         <p className='notjustxt mgbi'>~ it’s not just art</p>
                     </div>
 
-                    <Link href={"/"}> <div className="enterbtnlanding mgbi">
-                        enter
-                    </div>
+                    <Link href={"/home"}>
+                        <div className="enterbtnlanding mgbi">
+                            enter
+                        </div>
                     </Link>
+
                 </div>
             </div>
 
-            <div className="rollingtext pp5">
-                <GiCloverSpiked /> &nbsp;&nbsp; Welcome to our auction and raffle services. &nbsp;&nbsp; <GiCloverSpiked /> &nbsp;&nbsp; We are glad to have you here &nbsp;&nbsp;
+            <div className="rollingtext pp5"   >
+                <motion.div className="text" initial={{ x: 70 }} animate={{ x: -400 }} transition={{ repeat: Infinity, repeatType: "mirror", duration: 10, type: "tween" }}>
+
+                    <GiCloverSpiked /> &nbsp;&nbsp; Welcome to our auction and raffle services. &nbsp;&nbsp; <GiCloverSpiked /> &nbsp;&nbsp; We are glad to have you here &nbsp;&nbsp;
+
+
+                </motion.div>
+
             </div>
 
             <p className='allrights pp5'>

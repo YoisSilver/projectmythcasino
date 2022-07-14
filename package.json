@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "svg": "svgr -d assets assets"
-
   },
   "dependencies": {
+    "framer-motion": "^6.5.1",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",

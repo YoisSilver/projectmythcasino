@@ -54,15 +54,27 @@
         padding-left: 4rem;
         padding-right: 4rem;
         .congrats {
+          display: flex;
+          align-items: center;
+
           font-size: 1.3rem;
           letter-spacing: 1px;
+          justify-content: center;
+          svg {
+            margin-left: 2rem;
+            margin-right: 2rem;
+          }
         }
         .address {
           letter-spacing: 2px;
           font-size: 1rem;
           .bidarea {
             display: flex;
+
             gap: 1rem;
+            svg {
+              margin-top: 0.6rem;
+            }
             .amount {
               text-align: center;
               background-color: $similarpaper;
@@ -72,10 +84,10 @@
               letter-spacing: 3px;
               padding-top: 0.5rem;
               padding-bottom: 0.5rem;
-  
+
               font-size: 1rem;
               padding-right: 1em;
-              padding-left:  1em;
+              padding-left: 1em;
               margin: 0;
             }
             input::-webkit-outer-spin-button,

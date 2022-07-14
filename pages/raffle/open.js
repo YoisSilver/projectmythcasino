@@ -14,6 +14,7 @@ export default function buy() {
         <div>
             <Navbar />
             <Rafflecontainer />
+            <Footer />
         </div>
     )
 }

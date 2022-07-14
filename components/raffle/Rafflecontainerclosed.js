@@ -5,8 +5,8 @@ import Rbuyarea from './Rbuyarea';
 import Rtoparea from './Rtoparea';
 
 
-export default function Rafflecontainer() {
-    const [rafflestatus, setRafflestatus] = useState(true);
+export default function Rafflecontainerclosed() {
+    const [rafflestatus, setRafflestatus] = useState(false);
 
     return (
         <div className='rafflecontainer'>

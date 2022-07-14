@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import Cardimg from '../assets/cardimg.png'
 import { GiTicket, GiCrown } from 'react-icons/gi'
+import { motion, AnimatePresence } from 'framer-motion'
 
 export default function RaffleCards() {
 
@@ -25,8 +26,8 @@ export default function RaffleCards() {
   return (
 
 
-    <div className='cardsarea'>
-      {rafflecards.map((rafcrd) => (
+    <motion.div className='cardsarea' initial={{ opacity: 0, scale:0.87 }} animate={{ opacity: 1, scale: 0.9 }} transition={{ type: "spring", duration: 2 }}
+    exit={{ opacity: 0 }}>      {rafflecards.map((rafcrd) => (
 
         <div className={rafcrd.rafflestatus == true ? "auctioncard" : "auctioncard cardoff"} key={rafcrd.id}>
           <Image src={Cardimg} className={rafcrd.rafflestatus == true ? "cardimg" : "cardimg coff"} height="200px"
@@ -34,19 +35,19 @@ export default function RaffleCards() {
           <div className={rafcrd.rafflestatus == true ? "name mgb" : "name noff mgb"}>{rafcrd.name}</div>
 
           <div className={rafcrd.rafflestatus == true ? "bid pp5" : "bid boff pp5"}>
-            <div className="sold" ><GiTicket className='ticket' /> {rafcrd.spots} spots</div>
+            <div className="sold" >{rafcrd.sold} sold <GiTicket className='ticket' /> {rafcrd.spots} spots</div>
           </div>
 
           <div className={rafcrd.rafflestatus == true ? "status pp5" : "status soff pp5"}><GrStatusGoodSmall />
             {rafcrd.rafflestatus == true ? "Open" : "Closed"}
           </div>
-          <Link href={"/raffle"}>
-            <div className={rafcrd.rafflestatus == true ? "viewbtn pp5" : "viewbtn voff pp5"}>
+          <Link href={rafcrd.rafflestatus == true ? "/raffle/open" : "/raffle/closed"}>
+            <div className={rafcrd.auctionstatus == true ? "viewbtn pp5" : "viewbtn voff pp5"}>
               view
             </div>
           </Link>
         </div>))}
 
-    </div>
+    </motion.div>
   )
 }

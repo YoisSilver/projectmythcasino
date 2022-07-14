@@ -1,0 +1,196 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  background-image: url(../assets/topscreen.svg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  cursor: default;
+}
+* {
+  box-sizing: border-box;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+$blk1: #141414;
+$navcream: #cdc6be;
+$similarpaper: #d4cec5;
+$similarpaperblk: #242323;
+$darkcream: #3a3938;
+$inactive: #5c5c5c;
+$active: #70ff00;
+
+.creamtext {
+  color: $similarpaper;
+}
+
+.blkpaperbg {
+  background-image: url(../assets/loadingscreen.svg);
+  background-size: cover;
+  height: 100vh;
+  color: $similarpaper;
+}
+
+.cardshad2 {
+  -webkit-box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+// FONTS
+
+@font-face {
+  font-family: "Migra";
+  src: url("../fonts/Migra/Migra-Extrabold.otf");
+  font-weight: 200;
+}
+
+.mgb {
+  font-family: "Migra";
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Migra";
+  src: url("../fonts/Migra/Migra-Extralight.otf");
+  font-size: 100;
+}
+
+.mgl {
+  font-family: "Migra";
+  font-size: 100;
+}
+
+@font-face {
+  font-family: "Migra";
+  src: url("../fonts/Migra/MigraItalic-ExtraboldItalic.otf");
+
+  font-weight: 300;
+}
+
+.mgbi {
+  font-family: "Migra";
+  font-weight: 300;
+}
+
+// @font-face {
+//   font-family: "Migra";
+//   src: url("../fonts/Migra/MigraItalic-ExtralightItalic.otf");
+//   font-weight: lighter;
+//   font-style: italic;
+// }
+
+// .mgli {
+//   font-family: "Migra";
+//   font-weight: lighter;
+//   font-style: italic;
+// }
+
+@font-face {
+  font-family: "PPNeueWorld";
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-SuperCondensedLight.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueWorld";
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-CondensedRegular.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueWorld";
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-SemiCondensedUltrabold.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueWorld";
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-Thin.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueWorld";
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-Regular.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueWorld";
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-SemiExtendedBlack.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueWorld";
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-ExtendedThin.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pp1 {
+  font-family: "PPNeueWorld";
+  font-weight: 100;
+}
+
+.pp2 {
+  font-family: "PPNeueWorld";
+  font-weight: 200;
+}
+
+.pp3 {
+  font-family: "PPNeueWorld";
+  font-weight: 300;
+}
+
+.pp4 {
+  font-family: "PPNeueWorld";
+  font-weight: 400;
+}
+
+.pp5 {
+  font-family: "PPNeueWorld";
+  font-weight: 500;
+}
+
+.pp6 {
+  font-family: "PPNeueWorld";
+  font-weight: 600;
+}
+
+.pp7 {
+  font-family: "PPNeueWorld";
+  font-weight: 700;
+}
+
+// scrollbar
+
+::-webkit-scrollbar {
+  background-color: #111111;
+  width: 0.15rem;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(56, 56, 56);
+
+  border-radius: 5rem;
+}

@@ -1,0 +1,151 @@
+.landingpage {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  .sidearea {
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 6rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    .card {
+      transform: rotate(15deg);
+      svg {
+      }
+    }
+    .socialmedialinkslandingpage {
+      margin-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      color: #000000;
+
+      svg {
+        background-color: $similarpaper;
+        border-radius: 0.9rem;
+        // padding: 10px;
+        padding: 0.4rem;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+          margin-top: -2px;
+          margin-bottom: 2px;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+
+  .mainarealandingcenter {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .centertext {
+      margin-right: 20vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
+      .brandlogo {
+      }
+      .projmythtext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .mythtxt {
+          font-size: 5rem;
+          white-space: nowrap;
+        }
+        .notjustxt {
+          position: absolute;
+          font-size: 1.2rem;
+          white-space: nowrap;
+          display: flex;
+          top: 11rem;
+          right: -7rem;
+        }
+      }
+      .enterbtnlanding {
+        color: #000000;
+        font-size: 1.4rem;
+        background-color: $similarpaper;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover {
+            margin-top: -4px;
+            margin-bottom: 4px;
+            transition: 0.4s;
+          }
+      }
+    }
+  }
+
+  .rollingtext::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image: url("../../assets/bgpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+  .rollingtext {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #141414;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    border: solid 0.2rem $similarpaper;
+    padding: 1rem;
+    transform: rotate(20deg);
+    z-index: 3;
+    bottom: -1.5rem;
+    left: -6rem;
+
+    svg {
+    }
+  }
+
+  .allrights {
+    position: absolute;
+    font-size: 1.1rem;
+    text-align: center;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    white-space: pre;
+  }
+  .border {
+    position: fixed;
+    height: 96.5vh;
+    width: 99vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    border: 3px $similarpaper solid;
+    border-radius: 0.8rem;
+    top: 1.5vh;
+    bottom: 2vh;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url("../../assets/nav.svg");
+  background-size: contain;
+  -webkit-box-shadow: 0px -7px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px -7px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px -7px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 5rem;
+  align-items: center;
+  padding-top: 0.6rem;
+  .stamp {
+  }
+  .centerareaf {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .mythtx {
+      cursor: default;
+      letter-spacing: 2rem;
+      font-size: 2.7rem;
+      margin-bottom: 2rem;
+    }
+    .icons {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      gap: 8rem;
+      bottom: -1rem;
+      left: -4rem;
+      color: black;
+
+      svg {
+        cursor: pointer;
+        &:hover {
+          color: #3b3a38;
+        }
+      }
+    }
+  }
+  .tower {
+    overflow-y: hidden;
+
+    transform: scale(0.8);
+    margin-bottom: -1rem;
+  }
+}

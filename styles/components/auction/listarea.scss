@@ -1,0 +1,102 @@
+.listarea {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 6rem;
+  .notifboxs {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20vw;
+
+    .wrapper {
+      //   background-color: $darkcream;
+      background-image: url("../../../assets/chocpaper.svg");
+      background-size: cover;
+      color: $similarpaper;
+      border-radius: 0.4rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      .area {
+        .discl {
+          font-size: 1.4rem;
+          text-align: center;
+        }
+        .text {
+          font-size: 1.1rem;
+          letter-spacing: 1px;
+        }
+      }
+      .areaA {
+        //   margin-bottom: 0.1rem;
+      }
+    }
+  }
+  .listareas {
+    .winner {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      .wrapper {
+        max-width: fit-content;
+        background-image: url("../../../assets/chocpaper.svg");
+        background-size: cover;
+        color: $similarpaper;
+        border-radius: 0.5rem;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        .congrats {
+          font-size: 1.3rem;
+          letter-spacing: 1px;
+        }
+        .address {
+          letter-spacing: 2px;
+          font-size: 1rem;
+        }
+        .wonfor {
+          font-size: 1rem;
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    .alladdress {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background-image: url("../../../assets/chocpaper.svg");
+      background-size: cover;
+      color: $similarpaper;
+      border-radius: 0.5rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      text-align: center;
+      display: flex;
+      gap: 3rem;
+      .bar {
+        display: flex;
+        flex-direction: column;
+        .header {
+          font-size: 1.1rem;
+        }
+        .entry {
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+  .svgtower {
+    display: flex;
+
+    align-items: flex-end;
+  }
+}

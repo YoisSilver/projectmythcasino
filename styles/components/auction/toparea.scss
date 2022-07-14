@@ -1,0 +1,90 @@
+.toparea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: -2rem;
+  padding-top: 3rem;
+  .img {
+    background-image: url("../../../assets/chocpaper.svg");
+    background-size: cover;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+  }
+  .infoholder {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    .details {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+
+      color: $similarpaper;
+
+      .detailbox {
+        margin-left: 4rem;
+        background-image: url("../../../assets/chocpaper.svg");
+        background-size: cover;
+        border-radius: 0.2rem;
+        width: 9rem;
+        border-radius: 0.4rem;
+        a {
+        }
+        b {
+        }
+      }
+    }
+
+    .line2 {
+      display: flex;
+      flex-direction: row;
+      margin-left: 4rem;
+      border-radius: 0.3rem;
+      margin-top: 3rem;
+      .bigtitle {
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-image: url("../../../assets/chocpaper.svg");
+        background-size: cover;
+        color: $similarpaper;
+        gap: 3rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        border-radius: 0.3rem;
+        svg {
+          cursor: pointer;
+          &:hover {
+            filter: brightness(0.9);
+          }
+        }
+        .title {
+          letter-spacing: 2px;
+          font-size: 1.35rem;
+        }
+        .line {
+          overflow: hidden;
+          max-height: fit-content;
+          transform: scale(1.2);
+          path {
+          }
+        }
+
+        .icons {
+          display: flex;
+          gap: 3rem;
+        }
+        .solana {
+        }
+      }
+      .badge {
+        margin-left: 5rem;
+        margin-top: 1rem;
+        color: $darkcream;
+      }
+    }
+  }
+}

@@ -60,6 +60,49 @@
         .address {
           letter-spacing: 2px;
           font-size: 1rem;
+          .bidarea {
+            display: flex;
+            gap: 1rem;
+            .amount {
+              text-align: center;
+              background-color: $similarpaper;
+              color: $darkcream;
+              outline: none;
+              border-radius: 0.7rem;
+              letter-spacing: 3px;
+              padding-top: 0.5rem;
+              padding-bottom: 0.5rem;
+  
+              font-size: 1rem;
+              padding-right: 1em;
+              padding-left:  1em;
+              margin: 0;
+            }
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+            .bidbtn {
+              cursor: pointer;
+              text-align: center;
+              border-radius: 0.9rem;
+              padding-left: 2rem;
+              padding-right: 2rem;
+              padding-top: 0rem;
+              padding-bottom: 0rem;
+              margin: 0;
+              font-size: 1rem;
+              letter-spacing: 1px;
+              color: $similarpaper;
+              background-color: $similarpaperblk;
+              border-radius: 0.6rem;
+              margin: 0px;
+              &:hover {
+                filter: brightness(0.85);
+              }
+            }
+          }
         }
         .wonfor {
           font-size: 1rem;

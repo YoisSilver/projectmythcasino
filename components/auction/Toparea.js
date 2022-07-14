@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Cardimg from '../../assets/cardimg.png'
 import { IconContext } from 'react-icons'
 
-export default function Toparea() {
+export default function Toparea({ auctionstatus }) {
     return (
 
         <div className='toparea'>
@@ -27,8 +27,8 @@ export default function Toparea() {
                         <p className="b mgb">2000</p>
                     </div>
                     <div className="detailbox cardshad2">
-                        <p className="a pp5">Winners</p>
-                        <p className="b mgb">1</p>
+                        <p className="a pp5">{auctionstatus ? 'Time Left' : 'Winners' }</p>
+                        <p className="b mgb">24d 12h 3m</p>
                     </div>
                     <div className="detailbox cardshad2">
                         <p className="a pp5">NFTs</p>
@@ -36,7 +36,7 @@ export default function Toparea() {
                     </div>
                     <div className="detailbox cardshad2">
                         <p className="a pp5">Status</p>
-                        <p className="b mgb">Closed</p>
+                        <p className="b mgb">{auctionstatus ? 'Open' : 'Closed' }</p>
                     </div>
                 </div>
                 <div className="line2">

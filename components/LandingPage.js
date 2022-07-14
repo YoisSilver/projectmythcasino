@@ -34,9 +34,11 @@ export default function LandingPage() {
                         <p className='mythtxt pp6'>PROJECT MYTH</p>
                         <p className='notjustxt mgbi'>~ it’s not just art</p>
                     </div>
-                    <div className="enterbtnlanding mgbi">
-                        <Link href={"/"}>enter</Link>
+
+                    <Link href={"/"}> <div className="enterbtnlanding mgbi">
+                        enter
                     </div>
+                    </Link>
                 </div>
             </div>
 

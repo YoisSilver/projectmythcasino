@@ -1,7 +1,7 @@
 import React from 'react'
 import SvgTower from '../../assets/Tower'
 
-export default function Listarea() {
+export default function Listarea({ auctionstatus }) {
     return (
 
         <div className="listarea">
@@ -12,7 +12,7 @@ export default function Listarea() {
                             Disclaimer
                         </p>
                         <p className="text pp5">
-                            Monkelabs.io is a revenue sharing Launchpad for Solana NFT projects. Holders receive 50% revenue from the Launchpad and 50% off Launchpad fees when launching their own project.
+                            Blahproject.io is a revenue sharing Launchpad for Solana NFT projects. Holders receive 50% revenue from the Launchpad and 50% off Launchpad fees when launching their own project.
 
                         </p>
                     </div>
@@ -29,9 +29,18 @@ export default function Listarea() {
             <div className="listareas">
                 <div className="winner ">
                     <div className="wrapper cardshad2">
-                        <p className="congrats mgbi">Congratulations to the winner </p>
-                        <p className="address pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY </p>
-                        <p className="wonfor mgbi">won for 50 SOL</p>
+                        <div className="congrats mgbi"><p>{auctionstatus ? 'Place your bids here' : 'Congratulations to the winner'} </p></div>
+                        <div className="address pp5">
+                            <p>
+                                {auctionstatus ? <div className='bidarea'>
+                                    <input className='amount pp5' type="number" placeholder='min bid: 51'></input>
+                                    <input type="submit" className='bidbtn pp5' value="Bid" />
+                                </div>
+                                    : 'gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY'}
+                            </p> </div>
+
+                        <div className="wonfor mgbi">
+                            <p>{auctionstatus ? 'highest bid 50 SOL' : 'won for 50 SOL'}</p></div>
                     </div>
 
 

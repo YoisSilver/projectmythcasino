@@ -5,16 +5,15 @@ import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Toparea from '../../components/auction/Toparea'
-import Auctioncontainer from '../../components/auction/Auctioncontainer'
 import Listarea from '../../components/auction/Listarea'
+import Rafflecontainer from '../../components/raffle/Rafflecontainer'
 
 export default function buy() {
 
     return (
         <div>
             <Navbar />
-            <Auctioncontainer />
-
+            <Rafflecontainer />
         </div>
     )
 }

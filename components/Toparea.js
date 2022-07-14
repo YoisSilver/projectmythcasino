@@ -9,7 +9,10 @@ import Link from 'next/link'
 export default function Toparea() {
     return (
         <div className='topareatop'>
-            <Cards className="cards" />
+            <div className="cards">
+                <Cards className='carditem' />
+            </div>
+
             <div className="auctionorraffle">
                 <div className="selectbar mgbi">
                     <p className='active'>AUCTION</p>

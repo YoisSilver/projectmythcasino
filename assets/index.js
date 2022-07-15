@@ -1,4 +1,6 @@
 export { default as Arrow } from "./Arrow";
+export { default as Card1 } from "./Card1";
+export { default as Card2 } from "./Card2";
 export { default as Cards } from "./Cards";
 export { default as Cards2 } from "./Cards2";
 export { default as Cards3 } from "./Cards3";

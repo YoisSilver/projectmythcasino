@@ -1,5 +1,6 @@
 import React from 'react'
-// import Cards from '../assets/cards.js'
+import Card1 from '../assets/card1.js'
+import Card2 from '../assets/card2.js'
 import Image from 'next/image'
 import Cardimg from '../assets/cardimg.png'
 import Arrow from '../assets/Arrow.js'
@@ -16,7 +17,8 @@ export default function Toparea() {
     return (
         <div className='topareatop'>
             <div className="cards">
-                {/* <Cards className='carditem' /> */}
+                <Card1 className='carditem card1' />
+                <Card2 className='carditem card2' />
             </div>
 
             <div className="auctionorraffle">

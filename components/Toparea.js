@@ -1,6 +1,7 @@
 import React from 'react'
-import SvgCard1 from '../assets/card1.js'
-import SvgCard2 from '../assets/card2.js'
+// import SvgCard1 from '../assets/card1.js'
+// import SvgCard2 from '../assets/card2.js'
+import Tower from '../assets/Tower'
 import Image from 'next/image'
 import Cardimg from '../assets/cardimg.png'
 import Arrow from '../assets/Arrow.js'
@@ -17,8 +18,9 @@ export default function Toparea() {
     return (
         <div className='topareatop'>
             <div className="cards">
-                <SvgCard1 className='carditem card1' />
-                <SvgCard2 className='carditem card2' />
+                <Tower className="tower" />
+                <Tower className="tower" />
+
             </div>
 
             <div className="auctionorraffle">

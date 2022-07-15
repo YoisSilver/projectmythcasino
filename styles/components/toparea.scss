@@ -236,7 +236,6 @@
         p {
           margin: 0.7rem;
         }
-
       }
       .cardareaheader {
         display: flex;
@@ -249,7 +248,7 @@
       }
       .cardarea {
         margin-bottom: 4rem;
-  
+
         .cardsareabg {
           display: flex;
           justify-content: center;
@@ -258,15 +257,14 @@
           background-image: url("../../assets/linebg.svg");
           // padding-left: 7.5rem;
           // padding-right: 7.5rem;
-             padding-top: 0rem;
+          padding-top: 0rem;
           padding-bottom: 0rem;
           .arrowbtn {
             position: absolute;
             bottom: 2%;
-     
-            svg {
-              transform: scale(0.95);
 
+            svg {
+              transform: scale(0.9);
               cursor: pointer;
             }
           }
@@ -289,7 +287,7 @@
       }
     }
   }
-  
+
   .cardsarea {
     margin-top: -5rem;
     position: relative;
@@ -324,22 +322,22 @@
       }
     }
     .auctioncard {
-      transform: scale(0.9);
+      transform: scale(1);
       padding-left: 1.7rem;
       padding-right: 1.7rem;
-      padding-top:    1.2rem;
+      padding-top: 1.2rem;
       padding-bottom: 1.2rem;
       text-align: center;
       background-image: url("../../assets/topscreen.svg");
       -webkit-box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
       -moz-box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
       box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
-      margin-top:    0.1rem;
+      margin-top: 0.1rem;
       margin-bottom: 0.1rem;
       border-radius: 0.3rem;
       transition: 0.2s;
       cursor: pointer;
-  
+
       .cardimg {
         border-radius: 0.2rem;
         overflow: hidden;
@@ -363,7 +361,7 @@
         padding-right: 1rem;
         padding-top: 0.4rem;
         padding-bottom: 0.2rem;
-  
+
         letter-spacing: 2px;
         .ticket {
           margin-right: 0.8rem;
@@ -390,9 +388,9 @@
         border-radius: 0.9rem;
         padding-left: 2rem;
         padding-right: 2rem;
-        padding-top: 0.4rem;
-        padding-bottom: 0.2rem;
-        font-size: 1.2rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.4rem;
+        font-size: 1.25rem;
         color: $similarpaper;
         background-color: $similarpaperblk;
         border-radius: 0.6rem;
@@ -404,4 +402,3 @@
     }
   }
 }
-

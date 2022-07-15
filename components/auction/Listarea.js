@@ -48,7 +48,7 @@ export default function Listarea({ auctionstatus }) {
 
 
                 </div>
-                <div className="alladdress">
+                <div className="alladdress desktop">
                     <div className="wallet bar">
                         <p className="header mgb">Wallet</p>
                         <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
@@ -103,6 +103,97 @@ export default function Listarea({ auctionstatus }) {
 
                     </div>
                 </div>
+
+
+
+
+                <div className="alladdressb mobile">
+                    <p className="header mgb">Bid history</p>
+
+                    <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>          <div className="container">
+                        <div className="infocnt">
+                            <p className='entry pp5 address'>gHdp1v... </p>
+                            <p className='entry pp5'>today</p>
+                        </div>
+                        <div className="price">
+                            <p className='entry pp5'>250 SOL</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div className="svgtower">
                 <SvgTower />

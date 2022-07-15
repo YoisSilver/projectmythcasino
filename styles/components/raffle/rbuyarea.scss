@@ -160,7 +160,9 @@
         }
       }
     }
-
+    .mobile {
+      display: none;
+    }
     .alladdress {
       margin-top: 2rem;
       margin-bottom: 2rem;
@@ -199,6 +201,7 @@
     flex-direction: column-reverse;
     text-align: center;
     align-items: center;
+    justify-content: center;
     margin-top: 3rem;
     .wrapper {
       background-image: url("../../../assets/chocpaper.svg");
@@ -318,17 +321,19 @@
     }
     .listarearaf {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       margin-top: 0rem;
       justify-content: center;
+      align-items: center;
       gap: 6rem;
+
       .notifboxs {
-        margin-top: 7rem;
-        margin-bottom: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 20vw;
+        max-width: 20rem;
 
         .wrapper {
           //   background-color: $darkcream;
@@ -367,21 +372,25 @@
         }
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
-        margin-top: 3rem;
-        margin-bottom: 2rem;
+        margin-top: -2rem;
+        margin-bottom: 0rem;
         background-image: url("../../../assets/chocpaper.svg");
         background-size: cover;
         color: $similarpaper;
-        border-radius: auto;
+        border-radius: 0.4rem !important;
         padding-top: 3rem;
-        padding-bottom: 5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        padding-bottom: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
         text-align: center;
         display: flex;
         gap: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
         .bar {
           display: flex;
           flex-direction: column;
@@ -394,9 +403,66 @@
             letter-spacing: 2px;
             white-space: nowrap;
           }
+          .addr {
+            width: 8ch;
+            overflow: hidden;
+          }
           .unclaimed {
             text-decoration: underline;
             cursor: pointer;
+          }
+        }
+      }
+
+      .desktop {
+        display: flex !important;
+      }
+      .mobile {
+        display: none;
+      }
+
+      .alladdressb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        background-image: url("../../../assets/chocpaper.svg");
+        background-size: cover;
+        color: $similarpaper;
+        border-radius: 2.5rem;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+        width: 23rem;
+
+        gap: 1rem;
+        .header {
+          white-space: nowrap;
+          font-size: 1.3rem;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+        .container {
+          display: flex;
+          justify-content: space-between;
+          gap: 10rem;
+          letter-spacing: 2px;
+          .infocnt {
+            white-space: nowrap;
+            .address {
+              // width: 7ch;
+              // overflow: hidden;
+            }
+          }
+          .price {
+          }
+          .entry {
+            white-space: nowrap;
           }
         }
       }

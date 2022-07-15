@@ -52,7 +52,7 @@ $active: #70ff00;
 
 @font-face {
   font-family: "Migra";
-  src: url("../fonts/Migra/Migra-Extrabold.otf");
+  src: url("../fonts/Migra/Migra-Extrabold.woff2");
   font-weight: 200;
 }
 
@@ -61,20 +61,20 @@ $active: #70ff00;
   font-weight: 200;
 }
 
+// @font-face {
+//   font-family: "Migra";
+//   src: url("../fonts/Migra/Migra-Extralight.otf");
+//   font-size: 100;
+// }
+
+// .mgl {
+//   font-family: "Migra";
+//   font-size: 100;
+// }
+
 @font-face {
   font-family: "Migra";
-  src: url("../fonts/Migra/Migra-Extralight.otf");
-  font-size: 100;
-}
-
-.mgl {
-  font-family: "Migra";
-  font-size: 100;
-}
-
-@font-face {
-  font-family: "Migra";
-  src: url("../fonts/Migra/MigraItalic-ExtraboldItalic.otf");
+  src: url("../fonts/Migra/MigraItalic-ExtraboldItalic.woff2");
 
   font-weight: 300;
 }
@@ -97,74 +97,74 @@ $active: #70ff00;
 //   font-style: italic;
 // }
 
-@font-face {
-  font-family: "PPNeueWorld";
-  src: url("../fonts/PPNeueWorld/PPNeueWorld-SuperCondensedLight.otf");
-  font-weight: 100;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "PPNeueWorld";
+//   src: url("../fonts/PPNeueWorld/PPNeueWorld-SuperCondensedLight.otf");
+//   font-weight: 100;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "PPNeueWorld";
+//   src: url("../fonts/PPNeueWorld/PPNeueWorld-CondensedRegular.otf");
+//   font-weight: 200;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "PPNeueWorld";
+//   src: url("../fonts/PPNeueWorld/PPNeueWorld-SemiCondensedUltrabold.otf");
+//   font-weight: 300;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "PPNeueWorld";
+//   src: url("../fonts/PPNeueWorld/PPNeueWorld-Thin.otf");
+//   font-weight: 400;
+//   font-style: normal;
+// }
 
 @font-face {
   font-family: "PPNeueWorld";
-  src: url("../fonts/PPNeueWorld/PPNeueWorld-CondensedRegular.otf");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PPNeueWorld";
-  src: url("../fonts/PPNeueWorld/PPNeueWorld-SemiCondensedUltrabold.otf");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PPNeueWorld";
-  src: url("../fonts/PPNeueWorld/PPNeueWorld-Thin.otf");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PPNeueWorld";
-  src: url("../fonts/PPNeueWorld/PPNeueWorld-Regular.otf");
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-Regular.woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "PPNeueWorld";
-  src: url("../fonts/PPNeueWorld/PPNeueWorld-SemiExtendedBlack.otf");
+  src: url("../fonts/PPNeueWorld/PPNeueWorld-SemiExtendedBlack.woff2");
   font-weight: 600;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "PPNeueWorld";
-  src: url("../fonts/PPNeueWorld/PPNeueWorld-ExtendedThin.otf");
-  font-weight: 700;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "PPNeueWorld";
+//   src: url("../fonts/PPNeueWorld/PPNeueWorld-ExtendedThin.otf");
+//   font-weight: 700;
+//   font-style: normal;
+// }
 
-.pp1 {
-  font-family: "PPNeueWorld";
-  font-weight: 100;
-}
+// .pp1 {
+//   font-family: "PPNeueWorld";
+//   font-weight: 100;
+// }
 
-.pp2 {
-  font-family: "PPNeueWorld";
-  font-weight: 200;
-}
+// .pp2 {
+//   font-family: "PPNeueWorld";
+//   font-weight: 200;
+// }
 
-.pp3 {
-  font-family: "PPNeueWorld";
-  font-weight: 300;
-}
+// .pp3 {
+//   font-family: "PPNeueWorld";
+//   font-weight: 300;
+// }
 
-.pp4 {
-  font-family: "PPNeueWorld";
-  font-weight: 400;
-}
+// .pp4 {
+//   font-family: "PPNeueWorld";
+//   font-weight: 400;
+// }
 
 .pp5 {
   font-family: "PPNeueWorld";
@@ -176,10 +176,10 @@ $active: #70ff00;
   font-weight: 600;
 }
 
-.pp7 {
-  font-family: "PPNeueWorld";
-  font-weight: 700;
-}
+// .pp7 {
+//   font-family: "PPNeueWorld";
+//   font-weight: 700;
+// }
 
 // scrollbar
 

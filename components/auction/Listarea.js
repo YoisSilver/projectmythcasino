@@ -51,19 +51,19 @@ export default function Listarea({ auctionstatus }) {
                 <div className="alladdress desktop">
                     <div className="wallet bar">
                         <p className="header mgb">Wallet</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
-                        <p className="entry pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
+                        <p className="entry addr pp5">gHdp1vbPdQqHU6EDnZmWuvZBJAicZMgZRJCWiKfQqHY</p>
 
                     </div>
                     <div className="time bar">
@@ -104,10 +104,10 @@ export default function Listarea({ auctionstatus }) {
                     </div>
                 </div>
 
+                {/* style 2 */}
 
 
-
-                <div className="alladdressb mobile">
+                {/* <div className="alladdressb mobile">
                     <p className="header mgb">Bid history</p>
 
                     <div className="container">
@@ -192,7 +192,7 @@ export default function Listarea({ auctionstatus }) {
                             <p className='entry pp5'>250 SOL</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
             <div className="svgtower">

@@ -149,3 +149,193 @@
     pointer-events: none;
   }
 }
+
+@media screen and (min-width: 750px) and (max-width: 1080px) {
+
+  .notjustxt {
+
+    right: 1rem !important;
+  }
+  
+ }
+
+@media screen and (min-width: 280px) and (max-width: 749px) {
+  .landingpage {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    position: absolute;
+    overflow: hidden;
+    .sidearea {
+      bottom: 2rem;
+      left: 5rem;
+      transform: scale(0.8);
+      position: absolute;
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 3rem;
+      margin-left: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      .card {
+        display: none;
+        position: absolute;
+
+        transform: rotate(0deg);
+        svg {
+//           transform: rotate(2deg);
+// margin-left: -20px;
+//           position: absolute;
+//           bottom: 50rem;
+          
+        }
+      }
+      .socialmedialinkslandingpage {
+        margin-left: 0.7rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        color: #000000;
+  
+        svg {
+          background-color: $similarpaper;
+          border-radius: 0.7rem;
+          padding: 0.4rem;
+          cursor: pointer;
+          transition: 0.2s;
+  
+          &:hover {
+            margin-top: -2px;
+            margin-bottom: 2px;
+            transition: 0.2s;
+          }
+        }
+      }
+    }
+  
+    .mainarealandingcenter {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .centertext {
+        margin-right: auto;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0rem;
+  
+        .brandlogo {
+          transform: scale(0.8);
+        }
+        .projmythtext {
+          margin-top: -3rem;
+          margin-bottom: -3rem;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          .mythtxt {
+            transform: scale(0.4);
+            font-size: 5rem;
+            white-space: nowrap;
+          }
+          .notjustxt {
+            position: absolute;
+            font-size: 1rem;
+            white-space: nowrap;
+            display: flex;
+            top: 8rem;
+            right: 13rem;
+          }
+        }
+        .enterbtnlanding {
+          transform: scale(0.75);
+          color: #000000;
+          font-size: 1.4rem;
+          background-color: $similarpaper;
+          padding-left: 2.5rem;
+          padding-right: 2.5rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          border-radius: 0.4rem;
+          cursor: pointer;
+          transition: 0.4s;
+          &:hover {
+              margin-top: -4px;
+              margin-bottom: 4px;
+              transition: 0.2s;
+            }
+        }
+      }
+    }
+  
+    .rollingtext::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.2;
+      background-image: url("../../assets/bgpaper.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+    }
+    .rollingtext {
+      height: auto;
+      white-space: nowrap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: #141414;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      border: solid 0.2rem $similarpaper;
+      padding: 1rem;
+      transform: rotate(0deg);
+      z-index: 3;
+      bottom: 8rem;
+      left:auto;
+
+      svg {
+      }
+    }
+  
+    .allrights {
+      display: none;
+      position: absolute;
+      font-size: 1.1rem;
+      text-align: center;
+      right: 1.5rem;
+      bottom: 1.5rem;
+      white-space: pre;
+    }
+    .border {
+      position: fixed;
+      height: 99vh;
+      width: 98.25vw;
+      border: 3px $similarpaper solid;
+      border-radius: 0.3rem;
+      top: 0.5vh;
+      bottom: 0.5vh;
+      left: 0.5vw;
+      right: 1.25vw;
+      pointer-events: none;
+    }
+  }
+  
+}

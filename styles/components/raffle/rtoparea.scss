@@ -89,3 +89,117 @@
     }
   }
 }
+
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .rtoparea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // padding-left: -2rem;
+    padding-left: auto;
+    padding-top: 3rem;
+    .img {
+      transform: scale(0.8);
+      padding: 1rem;
+      border-radius: 0.2rem;
+    }
+    .infoholder {
+      margin-top: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      .details {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: $similarpaper;
+        gap: 2rem;
+        .detailbox {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          margin-left: 0rem;
+          background-image: url("../../../assets/chocpaper.svg");
+          background-size: cover;
+          width: 9rem;
+          border-radius: 0.4rem;
+          a {
+          }
+          b {
+          }
+        }
+      }
+
+      .line2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        border-radius: 0.3rem;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        // transform: scale(0.7);
+        .bigtitle {
+          width: 20rem;
+          overflow: hidden;
+          display: flex;
+
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: url("../../../assets/chocpaper.svg");
+          background-size: cover;
+          color: $similarpaper;
+          gap: 3rem;
+          padding-left: 0rem;
+          padding-right: 0rem;
+          padding-bottom: 2rem;
+          padding-top: 1rem;
+
+          border-radius: 0.3rem;
+          svg {
+            cursor: pointer;
+            &:hover {
+              filter: brightness(0.9);
+            }
+          }
+          .title {
+            letter-spacing: 2px;
+            font-size: 1.3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 0;
+            padding: 0;
+          }
+          .line {
+            display: none;
+            overflow: hidden;
+            max-height: fit-content;
+            transform: scale(1.2);
+            path {
+            }
+          }
+
+          .icons {
+            display: flex;
+            gap: 9rem;
+          }
+          .solana {
+            margin-top: -4rem;
+          }
+        }
+        .badge {
+          transform: scale(0.9);
+          margin-left: 0rem;
+          margin-top: 2rem;
+          color: $darkcream;
+        }
+      }
+    }
+  }
+}

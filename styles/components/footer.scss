@@ -21,6 +21,8 @@
       letter-spacing: 2rem;
       font-size: 2.7rem;
       margin-bottom: 2rem;
+      color: $darkcream;
+
     }
     .icons {
       position: absolute;
@@ -29,12 +31,12 @@
       gap: 8rem;
       bottom: -1rem;
       left: -4rem;
-      color: black;
+      color: $darkcream;
 
       svg {
         cursor: pointer;
         &:hover {
-          color: #3b3a38;
+          color: black;
         }
       }
     }
@@ -44,5 +46,63 @@
 
     transform: scale(0.8);
     margin-bottom: -1rem;
+  }
+}
+
+
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+    align-items: center;
+    padding-top: 0.6rem;
+    .stamp {
+      transform: scale(0.7);
+      margin-left: -0.5rem;
+      margin-bottom: -2rem;
+
+    }
+    .centerareaf {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .mythtx {
+        cursor: default;
+        letter-spacing: 2rem;
+        font-size: 1.35rem;
+        margin-bottom: 3rem;
+      }
+      .icons {
+        transform: scale(0.85);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 3rem;
+        bottom: 0rem;
+        left: -1rem;
+        color: $darkcream;
+  
+        svg {
+          cursor: pointer;
+          color: $darkcream;
+
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+    .tower {
+      overflow-y: hidden;
+      margin-right: -0.5rem;
+
+      transform: scale(0.7);
+      margin-bottom: -2rem;
+    }
   }
 }

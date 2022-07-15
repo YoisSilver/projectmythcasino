@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from '../assets/cards4.js'
+import Cards from '../assets/cards.js'
 import Image from 'next/image'
 import Cardimg from '../assets/cardimg.png'
 import Arrow from '../assets/Arrow.js'

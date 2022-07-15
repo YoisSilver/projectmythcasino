@@ -35,8 +35,8 @@
   .navbar {
     display: flex;
     justify-content: space-between;
-    padding-top: 0.3rem;
-    padding-bottom: 0.1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -47,11 +47,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       min-width: 88px;
     }
     .redlogo {
-      transform: scale(0.8);
+      transform: scale(0.9);
     }
     .connectbtn {
       color: $similarpaper;
